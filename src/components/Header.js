@@ -1,62 +1,41 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Jennifer Smith</title>
-    <!-- bootstrap link  -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-    />
+import React from "react";
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <!-- css link  -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <!-- navagation bar  -->
-    <header class="header w-100 bg-dark text-white">
+function Header() {
+
+return (
+    <header className="header w-100 bg-dark text-white">
       <h1>Jennifer Smith</h1>
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
+      <ul className="nav nav-tabs" id="myTab" role="tablist">
+        <li className="nav-item" role="presentation">
           <a
-            class="nav-link bg-secondary text-white"
+            className="nav-link bg-secondary text-white"
             id="home-tab"
             data-toggle="tab"
-            href="index.html"
+            href="/"
             role="tab"
             aria-controls="home"
             aria-selected="true"
             >Home</a
           >
         </li>
-        <li class="nav-item" role="presentation">
+        <li className="nav-item" role="presentation">
           <a
-            class="nav-link bg-secondary text-white"
+            className="nav-link bg-secondary text-white"
             id="profile-tab"
             data-toggle="tab"
-            href="portfolio.html"
+            href="/projects"
             role="tab"
             aria-controls="profile"
             aria-selected="false"
             >Portfolio</a
           >
         </li>
-        <li class="nav-item" role="presentation">
+        <li className="nav-item" role="presentation">
           <a
-            class="nav-link active"
+            className="nav-link active"
             id="contact-tab"
             data-toggle="tab"
-            href="contact.html"
+            href="/contact"
             role="tab"
             aria-controls="contact"
             aria-selected="false"
@@ -65,3 +44,7 @@
         </li>
       </ul>
     </header>
+    );
+    }
+
+    export default Header; 

@@ -1,0 +1,39 @@
+[
+    {
+        "title" : "Password Generator",
+        "thumbnail" : "/images/passwordg.png",
+        "description" : "Create a password, user determines length, which characters, letters, numbers are included. A password is chosen at random.",
+        "repoLink" : "https://jjannross.github.io/password-generator/",
+        "deployedLink" : "https://jjannross.github.io/password-generator/"
+    },
+    {
+        "title" : "Weather Dashboard",
+        "thumbnail" : "/images/weatherd.png",
+        "description" : "Current weather and 5 day forecast displayed with a special UV Indext indicator. This app utilizes various APIs to gather all data as well as local storage to see a list of previously searched cities.",
+        "repoLink" : "https://jjannross.github.io/weatherdashboard/",
+        "deployedLink" : "https://jjannross.github.io/weatherdashboard/"
+    },
+    {
+        "title" : "Team Profile Generator",
+        "thumbnail" : "/images/teamprofile.png",
+        "description" : "Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+        "repoLink" : "https://jjannross.github.io/team-profile-generator/",
+        "deployedLink" : "https://jjannross.github.io/team-profile-generator/"
+    },
+    {
+        "title" : "Employee Management System",
+        "thumbnail" : "/images/employeemanage.png",
+        "description" : "Employee Management System allows a business owner to organize and plan their business by viewing and managing the departments, roles, and employees in my company.",
+        "repoLink" : "https://jjannross.github.io/employee-management-system/.",
+        "deployedLink" : "https://jjannross.github.io/employee-management-system/"
+    },
+    {
+        "title" : "Burger",
+        "thumbnail" : "/images/burger.png",
+        "description" : "An application that can be used to write and save notes. write and save notes. The notes can help organize and keep track of tasks I need to complete. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
+        "repoLink" : "https://github.com/jjannross/burger",
+        "deployedLink" : "https://eat-burger310.herokuapp.com/"
+    }
+]
+
+
